@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background: orangered;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+nav h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: white;
+    margin: 0 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+}
+
+body {
+    background: #ccc;
+}
+
+section {
+    margin: 20px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
